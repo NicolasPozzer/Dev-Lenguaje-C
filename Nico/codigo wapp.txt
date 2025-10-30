@@ -1,0 +1,160 @@
+<! DOCTYPE html>
+<html class = "no-js" dir = "ltr" loc = "es">
+<head>
+<meta charset = "utf-8">
+<meta http-equiv = contenido "X-UA-Compatible" = "IE = edge, chrome = 1">
+<title> WhatsApp Web </title>
+<meta name = "viewport" content = "width = device-width">
+<meta name = "google" content = "notranslate">
+<nombre meta = "detección de formato" contenido = "teléfono = no" />
+
+<meta name = "description" content = "Envía y recibe rápidamente mensajes de WhatsApp directamente desde tu computadora.">
+<meta name = "og: description" content = "Envía y recibe rápidamente mensajes de WhatsApp directamente desde tu computadora." />
+<meta name = "og: url" content = "https://web.whatsapp.com/" />
+<meta name = "og: title" content = "WhatsApp Web" />
+<meta name = "og: image" content = "https://www.whatsapp.com/img/whatsapp-promo.png" />
+
+<link id = "favicon" rel = "icono de acceso directo" href = "/ img / favicon / 1x / favicon.png" type = "image / png" />
+<link id = "favicon" rel = "icono de acceso directo" href = "https://whatsapp.net/favicon_web.png" type = "image / png" />
+<link rel = "icono-touch-apple" tamaños = "194x194" href = "/ apple-touch-icon.png" type = "image / png" />
+
+<link rel = "hoja de estilo" href = "/ cssm_99362fa8365d8e39028c84edca18e758.css">
+
+<estilo>
+html, cuerpo, #app {
+altura: 100%;
+ancho: 100%;
+desbordamiento: oculto;
+relleno: 0;
+margen: 0;
+}
+
+#app {
+posición: absoluta;
+arriba: 0;
+izquierda: 0;
+}
+
+#startup, #initial_startup {
+ancho: 100%;
+altura: 100%;
+posición: fijo
+color de fondo: # f2f2f2;
+
+-moz-user-select: none;
+-webkit-user-select: none;
+
+pantalla: flexión;
+elementos de alineación: centro;
+justificar-contenido: centro;
+pantalla: -webkit-box;
+pantalla: -webkit-flex;
+-webkit-align-items: centro;
+-webkit-justify-content: center;
+dirección flexible: columna;
+-webkit-flex-direction: columna;
+}
+
+.spinner-container {
+-webkit-animation: rotar 2s lineales infinitos;
+Animación: rotar 2s lineales infinitos;
+índice z: 2;
+}
+
+.spinner-path {
+trazo de trazo: 1.150; 
+stroke-dashoffset: 0;
+trazo: # acb9bf;
+Capa de trazo: redondo;
+-webkit-animation: dash 1.5s infinidad de facilidad de entrada;
+Animación: dash 1.5s infinito de facilidad de entrada;
+}
+
+@keyframes rotar {
+100% {transformar: rotar (360 grados); }
+}
+@ -webkit-keyframes rotate {
+100% {-webkit-transform: rotate (360deg); }
+}
+
+@keyframes dash {
+0% {
+trazo de trazo: 1.150;  
+stroke-dashoffset: 0;
+}
+50% {
+trazo de trazo: 90,150; 
+stroke-dashoffset: -35;   
+}
+100% {
+trazo de trazo: 90,150; 
+golpe-salpicadero: -124;  
+}
+}
+@ -webkit-keyframes dash {
+0% {
+trazo de trazo: 1.150;  
+stroke-dashoffset: 0;
+}
+50% {
+trazo de trazo: 90,150; 
+stroke-dashoffset: -35;   
+}
+100% {
+trazo de trazo: 90,150; 
+golpe-salpicadero: -124;  
+}
+}
+
+.progress-container {
+ancho: 360px;
+posición: fijo
+relleno superior: 120px;
+superior: 50%;
+izquierda: 50%;
+margen izquierdo: -180px;
+}
+
+Progreso {
+-webkit-apariencia: ninguno;
+apariencia: ninguna;
+ancho: 100%;
+altura: 3px;
+frontera: ninguna;
+margen: 0;
+color: # 02d1a4;
+color de fondo: # e0e4e5;
+}
+
+progress [valor] :: - webkit-progress-bar {
+color de fondo: # e0e4e5;
+}
+
+progress [valor] :: - webkit-progress-value {
+color de fondo: # 02d1a4;
+}
+
+progress [valor] :: - moz-progress-bar {
+color de fondo: # 02d1a4;
+}
+</style>
+</head>
+<body class = "web">
+<div id = "app"> </div>
+
+<div id = "initial_startup">
+<svg class = "spinner-container" width = "50" height = "50" viewBox = "0 0 44 44">
+<circle class = "spinner-path" cx = "22" cy = "22" r = "20" fill = "none" stroke-width = "4"> </circle>
+</svg>
+<div class = "progress-container">
+<progress id = progressbar value = "329" max = "3293.75" dir = "ltr"> </progress>
+</div>
+</div>
+
+<script src = "/ progress.5363a6cd3ab30ce786644f04e468f605.js"> </script>
+
+<div id = "hard_expire_time" data-time = 1570320801.241> </div>
+
+<script src = "/ locales / es.f05623c36219c6ec1c23.js"> </script>
+</body>
+</html>

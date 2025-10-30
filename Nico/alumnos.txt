@@ -1,0 +1,7 @@
+
+Nombre del alumno: nicolas
+DNI: 42342342
+Codigo de Carrera: 3
+Sexo: Varon
+Edad: 19
+

@@ -1,0 +1,7 @@
+
+Nombre del alumno: gggsgsd
+DNI: 4242142
+Codigo de Carrera: 3
+Sexo: Mujer
+Edad: 19
+
